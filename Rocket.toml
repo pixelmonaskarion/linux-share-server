@@ -1,0 +1,6 @@
+[global]
+address = "0.0.0.0"
+port = 44443
+[global.tls]
+certs = "/etc/letsencrypt/live/linuxshare.chrissytopher.com/fullchain.pem"
+key = "/etc/letsencrypt/live/linuxshare.chrissytopher.com/privkey.pem"
